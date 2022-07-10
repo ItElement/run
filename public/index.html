@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/main.min.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+    <div class="header">
+      <span class="logo">SAKURA</span>
+      <div class="menu"><i class="fa-solid fa-bars"></i></div>
+      <ul>
+        <li><a href="" onClick="return slowScroll('.about')">О ПРОЕКТЕ</a></li>
+        <li><a href="" onClick="return slowScroll('.about_bottom')">ДОСТИЖЕНИЯ</a></li>
+        <li><a href="" onClick="return slowScroll('.video_section')">ПОДРОБНЕЕ</a></li>
+        <li><a href="" onClick="return slowScroll('.foo')">КОНТАКТЫ</a></li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="" onClick="return slowScroll('.about')">О ПРОЕКТЕ</a></li>
+        <li><a href="" onClick="return slowScroll('.about_bottom')">ДОСТИЖЕНИЯ</a></li>
+        <li><a href="" onClick="return slowScroll('.video_section')">ПОДРОБНЕЕ</a></li>
+        <li><a href="" onClick="return slowScroll('.foo')">КОНТАКТЫ</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <section class="section_head">
+    <div class="section_head_bl">
+      <div>
+        <h1>ЖИЛОЙ КОМПЛЕКС SAKURA<span>.</span></h1>
+        <p>Здесь исполняются мечты!</p>
+        <div>
+          <button type="button" class="more" onClick="return slowScroll('.video_section')">Подробнее</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gold">
+    <div>
+      <p>Лучший проект мира по версии архитектурного конкурса WAN Awards 2017, Future Projects - Residential.</p>
+    </div>
+  </section>
+
+
+  <section class="about">
+    <div class="about_back">
+      <div class="about_top">
+        <div class="about_top_text">
+          <h2>О ПРОЕКТЕ</h2>
+          <ul>
+            <li>Мировая архитектура</li>
+            <li>Пышная растительность</li>
+            <li>Частное и общее озеленение</li>
+            <li>Прилегающий парк</li>
+          </ul>
+        </div>
+        <div class="about_top_img">
+
+        </div>
+      </div>
+      <div class="about_bottom">
+        <div class="about_bottom_img">
+
+        </div>
+        <div class="about_bottom_text">
+          <h2>ДОСТИЖЕНИЯ</h2>
+          <ul>
+            <li>Номинирован на финальный шорт-лист WAN Awards 2017</li>
+            <li>Номинирован на финальный шорт-лист WAN Awards 2020</li>
+            <li>Номинация в финальный шорт-лист Всемирного фестиваля архитектуры</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="video_section">
+    <div class="video_section_bac">
+      <div class="video_section_play">
+        <h3>ХОЧЕШЬ УЗНАТЬ БОЛЬШЕ<em>?</em></h3>
+        <p>Нажми на play</p>
+        <div class="video-play">
+          <img src="img/play.png" alt="Запустить видео">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal_video">
+    <div class="close_button">x</div>
+    <div class="video_modal">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nzFXw1d1pQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <footer class="foo">
+    <div class="footer">
+      <div class="contacti">
+        <p class="phone"><b>MOB.: </b>+7(996)-589-40-98</p>
+        <p class="email"><b>EMAIL: </b>solnsevalexandr@gmail.com</p>
+        <p class="orig">&#169 SAKURA - Все права защищены</p>
+      </div>
+      <div class="img_footer">
+        <div class="qwer">
+          <img src="img/n8.png" alt="Вверх" onClick="return slowScroll('.header')">
+        </div>
+        <p>ВВЕРХ</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/1aa8e8f947.js" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/main-min.js"></script>
+</body>
+</html>
